@@ -1,0 +1,31 @@
+{
+  "name": "append-type",
+  "description": "Stringify the value with appending its type: 10 → '10 (number)'",
+  "keywords": [
+    "string",
+    "stringify",
+    "tostring",
+    "type",
+    "append",
+    "concat",
+    "join"
+  ],
+  "main": "module.js",
+  "moduleType": "es6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinnn/append-type.git"
+  },
+  "authors": [
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "*.yml",
+    "coverage",
+    "node_modules"
+  ]
+}
