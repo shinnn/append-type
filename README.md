@@ -6,12 +6,12 @@
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/append-type.svg)](https://coveralls.io/r/shinnn/append-type)
 [![devDependencies Status](https://david-dm.org/shinnn/append-type/dev-status.svg)](https://david-dm.org/shinnn/append-type?type=dev)
 
-Stringify the value with appending its [type](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/typeof): `10` → ``'10 (number)'``
+Stringify the value with appending its [type](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/typeof): `10` → `'10 (number)'`
 
 ```javascript
 import appendType from 'append-type';
 
-appendType('123'); //=> 'foo (string)'
+appendType('123'); //=> '123 (string)'
 appendType(123); //=> '123 (number)'
 ```
 
