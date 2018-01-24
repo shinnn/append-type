@@ -1,7 +1,6 @@
 # append-type
 
 [![NPM version](https://img.shields.io/npm/v/append-type.svg)](https://www.npmjs.com/package/append-type)
-[![Bower version](https://img.shields.io/bower/v/append-type.svg)](https://github.com/shinnn/append-type/releases)
 [![Build Status](https://travis-ci.org/shinnn/append-type.svg?branch=master)](https://travis-ci.org/shinnn/append-type)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/append-type.svg)](https://coveralls.io/r/shinnn/append-type)
 [![devDependencies Status](https://david-dm.org/shinnn/append-type/dev-status.svg)](https://david-dm.org/shinnn/append-type?type=dev)
@@ -17,19 +16,17 @@ appendType(123); //=> '123 (number)'
 
 ## Installation
 
-### [npm](https://www.npmjs.com/)
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/getting-started/what-is-npm).
 
 ```
 npm install append-type
 ```
 
-### [bower](https://bower.io/)
-
-```
-bower install append-type
-```
-
 ## API
+
+```javascript
+import appendType from 'append-type';
+```
 
 ### appendType(*value*)
 
@@ -67,6 +64,6 @@ reverse(1); //=> TypeError: Expected a Boolean value, but got 1 (number).
 
 ## License
 
-Copyright (c) 2016 [Shinnosuke Watanabe](https://github.com/shinnn)
+Copyright (c) 2016 - 2018 [Shinnosuke Watanabe](https://github.com/shinnn)
 
 Licensed under [the MIT License](./LICENSE).
