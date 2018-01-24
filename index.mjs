@@ -1,10 +1,8 @@
-'use strict';
-
 /*!
  * append-type | MIT (c) Shinnosuke Watanabe
  * https://github.com/shinnn/append-type
 */
-function appendType(val) {
+export default function appendType(val) {
 	if (val === undefined) {
 		return 'undefined';
 	}
@@ -15,5 +13,3 @@ function appendType(val) {
 
 	return String(val) + ' (' + typeof val + ')';
 }
-
-module.exports = appendType;
