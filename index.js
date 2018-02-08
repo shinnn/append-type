@@ -1,7 +1,7 @@
 'use strict';
 
 /*!
- * append-type | MIT (c) Shinnosuke Watanabe
+ * append-type | ISC (c) Shinnosuke Watanabe
  * https://github.com/shinnn/append-type
 */
 function appendType(val) {

@@ -1,9 +1,8 @@
 # append-type
 
-[![NPM version](https://img.shields.io/npm/v/append-type.svg)](https://www.npmjs.com/package/append-type)
+[![npm version](https://img.shields.io/npm/v/append-type.svg)](https://www.npmjs.com/package/append-type)
 [![Build Status](https://travis-ci.org/shinnn/append-type.svg?branch=master)](https://travis-ci.org/shinnn/append-type)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/append-type.svg)](https://coveralls.io/r/shinnn/append-type)
-[![devDependencies Status](https://david-dm.org/shinnn/append-type/dev-status.svg)](https://david-dm.org/shinnn/append-type?type=dev)
 
 Stringify the value with appending its [type](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/typeof): `10` → `'10 (number)'`
 
@@ -64,6 +63,4 @@ reverse(1); //=> TypeError: Expected a Boolean value, but got 1 (number).
 
 ## License
 
-Copyright (c) 2016 - 2018 [Shinnosuke Watanabe](https://github.com/shinnn)
-
-Licensed under [the MIT License](./LICENSE).
+[ISC License](./LICENSE) © 2018 Shinnosuke Watanabe

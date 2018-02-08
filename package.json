@@ -10,7 +10,7 @@
 		"pretest": "npm run-script build",
 		"test": "istanbul cover test.js"
 	},
-	"license": "MIT",
+	"license": "ISC",
 	"module": "index.mjs",
 	"files": [
 		"index.js",

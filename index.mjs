@@ -1,5 +1,5 @@
 /*!
- * append-type | MIT (c) Shinnosuke Watanabe
+ * append-type | ISC (c) Shinnosuke Watanabe
  * https://github.com/shinnn/append-type
 */
 export default function appendType(val) {
