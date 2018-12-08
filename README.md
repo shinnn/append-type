@@ -1,7 +1,7 @@
 # append-type
 
 [![npm version](https://img.shields.io/npm/v/append-type.svg)](https://www.npmjs.com/package/append-type)
-[![Build Status](https://travis-ci.org/shinnn/append-type.svg?branch=master)](https://travis-ci.org/shinnn/append-type)
+[![Build Status](https://travis-ci.com/shinnn/append-type.svg?branch=master)](https://travis-ci.com/shinnn/append-type)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/append-type.svg)](https://coveralls.io/r/shinnn/append-type)
 
 Stringify the value with appending its [type](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/typeof): `10` → `'10 (number)'`
@@ -15,7 +15,7 @@ appendType(123); //=> '123 (number)'
 
 ## Installation
 
-[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/getting-started/what-is-npm).
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/).
 
 ```
 npm install append-type
@@ -30,7 +30,7 @@ import appendType from 'append-type';
 ### appendType(*value*)
 
 *value*: any type  
-Return: `String`
+Return: `string`
 
 Essentially, it returns `String(value) + ' (' + typeof value + ')'`.
 
