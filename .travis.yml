@@ -1,8 +1,7 @@
+if: branch !~ ^v\d
 dist: xenial
-branches:
-  except: /^v\d/
 language: node_js
 node_js: node
-after_script:
+after_success:
   - npm install istanbul-coveralls
   - node node_modules/.bin/istanbul-coveralls
