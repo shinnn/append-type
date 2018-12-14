@@ -5,10 +5,10 @@
 	"repository": "shinnn/append-type",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
 	"scripts": {
-		"prebuild": "eslint --ext=.js,.mjs --fix --format=codeframe .",
+		"prebuild": "eslint .",
 		"build": "rollup --config=node:module",
 		"pretest": "npm run-script build",
-		"test": "istanbul cover test.js"
+		"test": "nyc node test.js"
 	},
 	"license": "ISC",
 	"module": "index.mjs",
@@ -26,15 +26,19 @@
 		"join"
 	],
 	"devDependencies": {
-		"@shinnn/eslint-config": "^5.4.0",
-		"eslint": "^4.17.0",
-		"istanbul": "^0.4.5",
-		"nop": "^1.0.0",
-		"rollup": "^0.55.5",
-		"rollup-config-module": "^2.0.0",
-		"tape": "^4.8.0"
+		"@shinnn/eslint-config": "^6.8.6",
+		"eslint": "^5.10.0",
+		"lodash": "^4.17.11",
+		"nyc": "^13.1.0",
+		"nyc-config-common": "^1.0.1",
+		"rollup": "^0.67.4",
+		"rollup-config-module": "^2.0.2",
+		"tape": "^4.9.1"
 	},
 	"eslintConfig": {
 		"extends": "@shinnn"
+	},
+	"nyc": {
+		"extends": "nyc-config-common"
 	}
 }

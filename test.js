@@ -1,7 +1,7 @@
 'use strict';
 
 const appendType = require('.');
-const nop = require('nop');
+const noop = require('lodash/noop');
 const test = require('tape');
 
 test('appendType()', t => {
@@ -30,14 +30,14 @@ test('appendType()', t => {
 	);
 
 	t.equal(
-		appendType(nop),
-		'function nop(){} (function)',
+		appendType(noop),
+		'function noop() {\n  // No operation performed.\n} (function)',
 		'should stringify function.'
 	);
 
 	t.equal(
-		appendType(/baz/),
-		'/baz/ (object)',
+		appendType(/baz/u),
+		'/baz/u (object)',
 		'should stringify object.'
 	);
 

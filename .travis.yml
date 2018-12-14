@@ -2,6 +2,4 @@ if: branch !~ ^v\d
 dist: xenial
 language: node_js
 node_js: node
-after_success:
-  - npm install istanbul-coveralls
-  - node node_modules/.bin/istanbul-coveralls
+after_success: node_modules/.bin/nyc report | npx coveralls
