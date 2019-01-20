@@ -2,20 +2,20 @@
 	"name": "append-type",
 	"version": "1.0.1",
 	"description": "Stringify the value with appending its type: 10 → '10 (number)'",
-	"repository": "shinnn/append-type",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"repository": "shinnn/append-type",
+	"license": "MIT-0",
+	"module": "index.mjs",
+	"files": [
+		"index.js",
+		"index.mjs"
+	],
 	"scripts": {
 		"prebuild": "eslint .",
 		"build": "rollup --config=node:module",
 		"pretest": "npm run-script build",
 		"test": "nyc node test.js"
 	},
-	"license": "ISC",
-	"module": "index.mjs",
-	"files": [
-		"index.js",
-		"index.mjs"
-	],
 	"keywords": [
 		"string",
 		"stringify",

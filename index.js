@@ -1,9 +1,5 @@
 'use strict';
 
-/*!
- * append-type | ISC (c) Shinnosuke Watanabe
- * https://github.com/shinnn/append-type
-*/
 module.exports = function appendType(val) {
 	if (val === undefined) {
 		return 'undefined';

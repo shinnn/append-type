@@ -63,4 +63,4 @@ reverse(1); //=> TypeError: Expected a Boolean value, but got 1 (number).
 
 ## License
 
-[ISC License](./LICENSE) © 2018 Shinnosuke Watanabe
+[MIT No Attribution](./LICENSE) © 2019 Shinnosuke Watanabe
