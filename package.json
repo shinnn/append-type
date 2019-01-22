@@ -5,7 +5,6 @@
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
 	"repository": "shinnn/append-type",
 	"license": "MIT-0",
-	"module": "index.mjs",
 	"files": [
 		"index.js",
 		"index.mjs"
@@ -26,14 +25,14 @@
 		"join"
 	],
 	"devDependencies": {
-		"@shinnn/eslint-config": "^6.8.6",
-		"eslint": "^5.10.0",
+		"@shinnn/eslint-config": "^6.8.9",
+		"eslint": "^5.12.1",
 		"lodash": "^4.17.11",
 		"nyc": "^13.1.0",
 		"nyc-config-common": "^1.0.1",
-		"rollup": "^0.67.4",
+		"rollup": "^1.1.2",
 		"rollup-config-module": "^2.0.2",
-		"tape": "^4.9.1"
+		"tape": "^4.9.2"
 	},
 	"eslintConfig": {
 		"extends": "@shinnn"
